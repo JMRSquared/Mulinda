@@ -1,6 +1,6 @@
-# tjp-company
+# Mulinda Environmental Consulting CC
 
-> TJP Building, Construction and projects
+> Mulinda Environmental Consulting CC is an establishing multidisciplinary organization with extensive expertise in Environmental - Management of all related project phases. It is wholly owned and managed by previously disadvantaged individuals (females). The company is 100% owned by women, who pride themselves in upholding black empowerment by willing to employ previously disadvantaged individuals, ensuring skills transfer to all communities served.
 
 ## Build Setup
 
