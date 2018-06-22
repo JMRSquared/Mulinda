@@ -91,8 +91,8 @@
           <div class="card-image">
             <img class="responsice-img" src="static/img/MrsJoyce.png">
             <span class="card-title">
-                                    {{ members[0].name }}
-                                  </span>
+                                      {{ members[0].name }}
+                                    </span>
           </div>
           <div class="card-content">
             <p>
@@ -110,8 +110,8 @@
       <div class="row sectionHeading">
         <h4>{{ section[7].title}}</h4>
       </div>
-      <div class="col s12 m8 offset-m2">
-        <carousel>
+      <div class="col s10 m8 offset-s1 offset-m2">
+        <carousel navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>" navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>" :navigationEnabled="true" :autoplayHoverPause="true" :autoplay="true" perPage="1">
           <slide v-for="(project,i) in projects" :key="i">
             <div class="row">
               <div class="col s10 offset-s1 row card">
@@ -131,6 +131,7 @@
                   </div>
                 </div>
               </div>
+  
             </div>
           </slide>
         </carousel>
@@ -225,7 +226,7 @@
           }
         ],
         projects: [{
-             title: "Kgapamadi Business Route from Gravel to surface (Asphalt) Road and Stormwater control",
+            title: "Kgapamadi Business Route from Gravel to surface (Asphalt) Road and Stormwater control",
             client: "Elias Motswaledi Municipality in partner with Sky High",
             ref: {
               name: "Andy: Director",
